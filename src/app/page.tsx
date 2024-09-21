@@ -9,7 +9,6 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-
 import { HiOutlinePlay } from "react-icons/hi2";
 
 import { Button } from "@/components/ui/button"
@@ -37,14 +36,17 @@ export default function Home() {
                     </div>
                     <div className="hidden gap-4 lg:flex">
                         <li>
-                            <Link href={"/"} target="_blank">Sobre</Link>
+                            <SocialComponent
+                                href="https://studioghibli.com.br/filmografia/a-viagem-de-chihiro/"
+                                label="Abrir Filmografia">
+                                Filmografia
+                            </SocialComponent>
                         </li>
                         <li>
                             <SocialComponent
-                                href="https://google.com"
-                                label="Instagram"
-                            >
-                                Instagram
+                                href="https://www.linkedin.com/in/rafael-rizzo-breschi-b02547216/"
+                                label="Contrate meus serviços">
+                                Contato
                             </SocialComponent>
                         </li>
                     </div>

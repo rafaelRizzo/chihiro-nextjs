@@ -16,13 +16,13 @@ export default function SocialComponent({ href, label, children }: SocialCompone
             <Tooltip>
                 <TooltipTrigger asChild>
                     <Link href={href} target="_blank">
-                        <div className="border dark:border-zinc-400 min-w-8 min-h-8 rounded-full flex items-center justify-center">
+                        <div className="flex items-center justify-center">
                             {children}
                         </div>
                     </Link>
                 </TooltipTrigger>
                 <TooltipContent>
-                    <p>{label}</p>
+                    {label}
                 </TooltipContent>
             </Tooltip>
         </TooltipProvider>
