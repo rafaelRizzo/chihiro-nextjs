@@ -2,13 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger,
-} from "@/components/ui/tooltip"
-
 import { HiOutlinePlay } from "react-icons/hi2";
 
 import { Button } from "@/components/ui/button"
